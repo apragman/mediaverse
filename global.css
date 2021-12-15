@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* tussilago */ @import url("https://use.typekit.net/jwe3jyp.css"); 
+
+
+html {
+		background-color: #000000;
+		box-sizing: border-box; 
+		color: white;
+		margin: 0;
+		padding: 0;
+	}
+
+main{
+	padding-top: 50px;
+	margin-left: 10%;
+	padding-bottom: 30%;
+	margin-right: 10%;
+	align-content: center;
+	align-items: center;
+}
+
+.page {
+	 /*border: solid 5px lavender;*/
+	min-height: 38em;
+     /*width: 75%; */
+	margin: 30px;
+	padding: 10px;
+}
+
+/* NAV */
+#navigation{
+	background-color:#000000;
+	z-index: 1000;
+	position: fixed;
+	width: 100%;
+	padding: 12px 0;
+	margin: 0;
+	padding-top: 10px;
+}
+
+#navigation a {
+	display: block;
+	padding: 14px;
+	font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+	/*font-size: 1em;*/
+	font-size: 15px;
+	color: #737373;
+	text-decoration: none;
+	transition: .5s;
+}
+
+#navigation a:hover {
+	font-weight: 400;
+	cursor: pointer;
+	transition: 0.7s;
+	color: #F4A702;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	align-items: center;
+}
+#navigation li {
+	display: inline-block;
+	align-items: center;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+
+#navigation h3 {
+	text-align: left;
+	align-items: left;
+	width: 20%;
+}
+
+#navigation h3:hover {
+	color: blue;}
+
+#Top{float: left;}
+.right-nav {float: right;}
+
+
+
+
+
+
+
+
+
+
+h1{
+
+	font-family: tussilago, sans-serif;
+		font-weight: 600;
+		font-style: normal;
+	    font-size: 2.7em;
+		color: #F44F17;
+		color: white;
+		padding: 0;
+		text-align: center;
+		align-items: center;
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	    font-size: 2em;
+		color: white;
+		/*color: black;*/
+		/*margin: 0;*/
+		padding: 0;
+		text-align: center;
+		align-items: center;
+}
+
+h3{
+
+	font-family: tussilago, sans-serif;
+		font-weight: 600;
+		font-style: normal;
+	    font-size: 1.3em;
+		color: #F44F17;
+		color: white;
+		padding: 0;
+		text-align: center;
+		align-items: center;
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif;
+		font-weight: 200;
+		font-style: lighter;
+	    font-size: .9em;
+		color: white;
+		padding: 0;
+		text-align: center;
+		align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+		/*Home*/
+#home h2{
+	margin-top: -30px;
+	font-size: 4em;
+}
+#home h1{
+	color: #1A4FD3;
+	font-size:5em;
+}
+#home p{
+	width: 50%;
+	font-size:1.5em;
+	text-align: center;
+	align-items: center;
+	margin: auto;
+
+}
+
+#example-banner{
+	margin-top: 10%;
+}
+
+#example-banner li{
+display: inline-block;
+	align-items: center;
+	text-align: left;
+	margin-left: 2em;
+	margin-right: 2em;
+
+	display: block;
+	padding: 5px;
+	font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+	/*font-size: 1em;*/
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	transition: .5s;
+}
+
+#example-banner ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	align-items: center;
+	color:  #94AFF2;
+}
+
+#example-banner h3{
+	color:  #94AFF2;
+	margin-top: 10%;
+}
+
+#example-banner .quote{
+	color:  #F4A702;
+	font-size: 1.2em;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.landing-content {
+    height: 100%;
+    width: 100%;
+    /*background-color: #030000;*/
+    z-index: 0;
+    top: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    width: 100%;
+    height: 110%;
+    position: relative;
+    z-index: -1;
+    top: -10%;
+}
+
+.content-images {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-image-wrapper {
+    height: 220px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+
+.content-image-wrapper img{
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+
+.one {
+    top: -10px;
+}
+.two {
+    top: -50px;
+}
+.three {
+    top: 20px;
+}
+.four {
+    top: -20px;
+}
+
+.content-image-wrapper h4 {
+    font-size: 1.8em;
+    position: relative;
+    top: -30px;
+    opacity: 0.6;
+}
+
+.text {
+    padding-top: 100px;
+    width: 60%;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.SmartEyeImg {
+	align-items: center;
+	width: 30px;
+	margin: auto;
+
+
+    display: inline-block;
+	align-items: center;
+    width: 20%;
+    /* height: 200px;  */
+
+}
+
+.eye-customizer{
+	margin-top: 10%;
+	width: 50%;
+	margin: auto;
+	/*height: 350px;*/
+	/*margin: 5%;*/
+	border-radius: 55px;
+	border: 1px solid #F4A702;
+	background-color: white;
+	/*width: 80%;*/
+	margin-top: 5%;
+	align-items: center;
+}
+
+.eye-color{
+	width: 30%;
+	/*margin: 20px 20px 20px 20px;*/
+	margin: auto;
+	align-items: center;
+	border-radius: 350px;
+}
+
+.eye-color:hover{
+	border: 2px solid #55A02B;
+	background-color: #F4A702;
+	/*border-radius: 80px;*/
+	/*margin: auto;*/
+}
+
+#display-selection{
+	width: 40%;
+	/*height: 500px;*/
+	/*float: right;
+*/	border-radius: 55px;
+	border: 1px solid black;
+}
+
+#selected{
+	width: 250px;
+	height: 250px;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+
+
+#products{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin: auto;
+}
+
+#products h3{
+	width: 70%;
+	margin: auto;
+}
+
+#products p{
+	width: 70%;
+	margin: auto;
+	margin-top: 5%;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*#yellow{
+	color: #F4A702;
+	font-weight: 100;
+}
+
+#green{
+	color: #55A02B;
+	font-weight: 100;
+}
+*/
+
+#team{
+	margin-top: 5%;
+}
+
+.about-story strong{
+	color: #F4A702;
+	font-weight: 100;
+}
+
+.about-story h1{
+color: #F44F17;
+}
+
+.about-story p{
+width: 60%;
+font-weight: 100;
+font-kerning: normal;
+letter-spacing: 1px;
+font-size: 1em;
+text-align: left;
+	align-items: center;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
