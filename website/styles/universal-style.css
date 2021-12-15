@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* tussilago */ @import url("https://use.typekit.net/jwe3jyp.css"); 
+
+html {
+		background-color:white;
+		background-color: #000000;
+		/*background-color: #DAE8FD;*/
+		box-sizing: border-box; 
+		color: #000000;
+		margin: 0;
+		padding: 0;
+	}
+
+
+main{
+	margin-left: 10%;
+	margin-right: 10%;
+	align-content: center;
+	align-items: center;
+}
+
+button{
+	 /*background-color: #4CAF50; /* Green */
+  border: none;
+  /*border: 1px solid white;*/
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 16px;
+
+  align-items: center;
+}
+button a{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+
+h1{
+
+	font-family: tussilago, sans-serif;
+		font-weight: 600;
+		font-style: normal;
+	    font-size: 5em;
+		color: #F44F17;
+		/*color: black;*/
+		/*margin: 0;*/
+		padding: 0;
+		text-align: left;
+		align-items: left;
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+		font-weight: 600;
+		font-style: normal;
+	    font-size: 2em;
+		color: white;
+		/*color: black;*/
+		/*margin: 0;*/
+		padding: 0;
+		/*text-align: center;
+		align-items: center;*/
+}
+
+p{
+	font-family: 'Josefin Sans', sans-serif;
+		font-weight: 200;
+		font-style: lighter;
+	    font-size: .9em;
+		color: white;
+		padding: 0;
+		/*text-align: center;
+		align-items: center;*/
+}
+
+/* NAV */
+#navigation{
+	background-color: #FFFFFF;
+	z-index: 1000;
+	position: fixed;
+	width: 100%;
+
+	padding: 12px 0;
+	margin: 0;
+	padding-top: 10px;
+	border: 1px solid black;
+}
+
+#navigation a {
+	display: block;
+	padding: 14px;
+	font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+	/*font-size: 1em;*/
+	font-size: 12px;
+	color: blue;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #000000;
+	font-size: 12px;
+	font-weight: 400;
+	cursor: pointer;
+	transition: 0.7s;
+
+	background-color: #3C5627;
+	color: #FFFF;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*text-align: center;*/
+	text-align: center;
+	align-items: center;
+}
+#navigation li {
+	display: inline-block;
+	align-items: center;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+
+#navigation h3 {
+	text-align: left;
+	align-items: left;
+	width: 20%;
+}
+
+#navigation h3:hover {
+	color: blue;
+}
+
+
+footer{
+	background-color: #202225;
+	height: 40px;
+}
+
+canvas{
+  border-radius: 120px;
+  margin: 20px;
+
+}
+
+/*.eye-canvas {
+    /*   background-color: #ffffff; */
+      /*cursor: move;
+	  position: relative;*/
+    /*}*/*/
+
+  .eye-container:hover .overlay{
+    	 opacity: 1;
+    }
+ 
+
+.eye-container{
+	/*background-color: #FEF5ED;*/
+	/*height: 70px;*/
+	max-height: 500px;
+	/*min-height: 19em;*/
+	/*min-height: 100%;*/
+	/*transition: 0.5s;*/
+	/*width:50%;*/
+	/*border: solid 1px #D2B876;*/
+	/*opacity:0.5;*/
+
+	/*display: inline-block;*/
+	align-items: center;
+	/*position: relative;*/
+	/*border-width: 3px;*/
+}
+
+body{
+	margin: 5%;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+
+
+#enter{
+	position: fixed;
+	top: 40%;
+	right: -2%;
+  	background-color: black;
+  border-radius: 300px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  transition: .5s;
+}
+
+#enter:hover {
+	position: fixed;
+	top: 40%;
+	right: -2%;
+  	background-color: #55A02B;
+  	transition: .5s;
+  border-radius: 300px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+
+  /*background-image: linear-gradient(180deg, red, yellow);*/
+}
+
+#enter a{
+	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: tussilago, sans-serif;*/
+		font-weight: 600;
+		font-style: normal;
+	    font-size: 1.4em;
+		color: white;
+		 text-decoration: none;
+		/*color: black;*/
+		/*margin: 0;*/
+		padding: 0;
+		/*text-align: center;
+		align-items: center;*/
+}
+
+
+.overlay{
+   
+    z-index: 200000;
+ 
+    height: 300px;
+    width: 300px;
+border-radius: 300px;
+	text-align: left;
+	align-items: left;
+	align-content: left;
+	background-color: black;
+	color: white;
+
+	margin: 0;
+	/*margin-left: -150px;*/
+	left: 5px;
+	top: 470px;
+	padding: 50px;
+	transition: 0.5s;
+	
+	position: fixed;
+}
+
+.underlayer{
+	transition: .3s;
+	position: fixed;
+	width: 70%;
+}
+.underlayer:hover h1 {
+	transition: .3s;
+	color: #C43200;
+	position: fixed;
+	width: 70%;
+
+	color: linear-gradient(180deg, red, yellow);
+}
